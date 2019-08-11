@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+
+body {
+  font-family: 'Fredericka the Great', cursive;
+  color: white;
+  margin: 0px;
+}
+
+ul {
+  padding: 0;
+  padding-left: 20px;
+  margin: 0;
+  list-style-type: none;
+  animation-name: vertical_ticker_baby;
+  animation-duration: 240s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, .5, 0);
+}
+
+ul li {
+  font-size: 32px;
+  line-height: 36px
+}
+
+.ticker_baby {
+  background: rgb(0, 0, 0, 0.9);
+  border-radius: 5px;
+  border: 6px double #744D98;
+  box-sizing: content-box;
+  height: 40px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.streamer {
+  color: #D9006F;
+}
+
+.current {
+  color: #0033AB;
+}
+
+@keyframes vertical_ticker_baby {
+  0% {margin-top: 0px;} /* 1 */
+  2.5% {margin-top: -36px;} /* 2 */
+  5.0% {margin-top: -72px;} /* 3 */
+  7.5% {margin-top: -108px;} /* 4 */
+  10.0% {margin-top: -144px;} /* 5 */
+  12.5% {margin-top: -180px;} /* 6 */
+  15.0% {margin-top: -216px;} /* 7 */
+  17.5% {margin-top: -252px;} /* 8 */
+  20.0% {margin-top: -288px;} /* 9 */
+  22.5% {margin-top: -324px;} /* 10 */
+  25.0% {margin-top: -360px;} /* 11 */
+  27.5% {margin-top: -396px;} /* 12 */
+  30.0% {margin-top: -432px;} /* 13 */
+  32.5% {margin-top: -468px;} /* 14 */
+  35.0% {margin-top: -504px;} /* 15 */
+  37.5% {margin-top: -540px;} /* 16 */
+  40.0% {margin-top: -576px;} /* 17 */
+  42.5% {margin-top: -612px;} /* 18 */
+  45.0% {margin-top: -648px;} /* 19 */
+  47.5% {margin-top: -684px;} /* 20 */
+  50.0% {margin-top: -720px;} /* 21 */
+  52.5% {margin-top: -756px;} /* 22 */
+  55.0% {margin-top: -792px;} /* 23 */
+  57.5% {margin-top: -828px;} /* 24 */
+  60.0% {margin-top: -864px;} /* 25 */
+  62.5% {margin-top: -900px;} /* 26 */
+  65.0% {margin-top: -936px;} /* 27 */
+  67.5% {margin-top: -972px;} /* 28 */
+  70.0% {margin-top: -1008px;} /* 29 */
+  72.5% {margin-top: -1044px;} /* 30 */
+  75.0% {margin-top: -1080px;} /* 31 */
+  77.5% {margin-top: -1116px;} /* 32 */
+  80.0% {margin-top: -1152px;} /* 33 */
+  82.5% {margin-top: -1188px;} /* 34 */
+  85.0% {margin-top: -1224px;} /* 35 */
+  87.5% {margin-top: -1260px;} /* 36 */
+  90.0% {margin-top: -1296px;} /* 37 */
+  92.5% {margin-top: -1332px;} /* 38 */
+  95.0% {margin-top: -1368px;} /* 39 */
+  97.5% {margin-top: -1404px;} /* 40 */
+  100% {margin-top: 0px;} /* 1 */
+}
